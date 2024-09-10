@@ -1,4 +1,4 @@
-# Bridge to Turbin3 Solana Development Final Assignment
+# Bridge to Turbin3 Solana Development All Assignment
 
 ## Disclaimer
 
