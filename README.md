@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-This project is a final assignment and includes three homeworks, demonstrating core Solana development operations. 
+This project is a final assignment and includes three homeworks. 
 
 ## Overview
 
