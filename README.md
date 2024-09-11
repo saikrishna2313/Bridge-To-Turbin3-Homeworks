@@ -15,13 +15,13 @@ This project demonstrates key Solana development operations, including generatin
 - **Token Transfer**: Transfer SOL to another wallet.
 - **Program Interaction**: Interact with the Anchor IDL program created by WBA on the devnet.
 
-## Airdrop of Dev SOL
+## Homework-1: Airdrop of Dev SOL
 View the airdrop transaction [here](https://explorer.solana.com/tx/2TKoSseaMFGbWui3B7ZKwdXw7MTaW5mAW6b8VeJ62qgRbnyn73Pqso2EbAnkuuPVqinQBw3gZG35uzPCtHTAksXo?cluster=devnet).
 
-## SOL Transfer
+## Homework-2: SOL Transfer
 View the transfer transaction of 1 SOL [here](https://explorer.solana.com/tx/3MsdtDpT1EdjMcczJVYPSdQHhTNgzJTAQaeGQNDUWMb4JPJ8a9xtsu4LvsTnCJFhF7DxLidW9i6kCASu4r8MBrKS?cluster=devnet).
 
-## Project Verification
+## Final Project: Project Verification
 Verify the final project transaction [here](https://explorer.solana.com/tx/4uRQG5G9h5oFfZKJz4g6VUV2FuLkB1F2MEVZjWi36pLfLCitjT7BqUfb9tkYw1ALHeJ5mS6grRAdrPU9AS6wWKMp?cluster=devnet).
 
 ## Acknowledgements
