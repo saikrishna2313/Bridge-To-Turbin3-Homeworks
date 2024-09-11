@@ -1,4 +1,4 @@
-# Bridge to Turbin3 Solana Development All 3 Assignments
+# Bridge to Turbin3 Program by RiseIn: All 3 Homeworks
 
 ## Disclaimer
 
