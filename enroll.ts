@@ -9,14 +9,14 @@ console.log(keypair.publicKey.toString())
 
 const connection = new Connection("https://api.devnet.solana.com");
 
-const github = Buffer.from("saikrishna2313", "utf8");
+const github = Buffer.from("hii89330", "utf8");
 
 const provider = new AnchorProvider(connection, new Wallet(keypair), { commitment: "confirmed" });
 
 const program: Program<WbaPrereq> = new Program(IDL, provider);
 
 const enrollment_seeds = [Buffer.from("prereq"), keypair.publicKey.toBuffer()];
-const [enrollment_key, _bump] = PublicKey.findProgramAddressSync(enrollment_seeds, program.programId);
+const [_bump] = PublicKey.findProgramAddressSync(enrollment_seeds, program.programId);
 
 (async () => {
     try {

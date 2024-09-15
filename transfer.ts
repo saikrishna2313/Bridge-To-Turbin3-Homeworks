@@ -5,7 +5,7 @@ import wallet from "./dev-wallet.json"
 const from = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 // Define Second Account Public Key
-const to = new PublicKey("Reciever Public_Key");
+const to = new PublicKey("C922pinbbPQMon8UkFPViyof9rUjHic5o1h5HWYgzPMN");
 
 //Create a Solana devnet connection
 const connection = new Connection("https://api.devnet.solana.com");
@@ -16,7 +16,7 @@ const connection = new Connection("https://api.devnet.solana.com");
             SystemProgram.transfer({
                 fromPubkey: from.publicKey,
                 toPubkey:  to,
-                lamports: LAMPORTS_PER_SOL/100,
+                lamports: LAMPORTS_PER_SOL*0.2,
             })
         );
         transaction.recentBlockhash = (await connection.getLatestBlockhash('confirmed')).blockhash;
